@@ -11,7 +11,7 @@
 <body>
     <?php 
     $n = readline();
-    echo("{$n}\n");
+    echo ("{$n}\n");
     
     echo intdiv($n,100), " nota(s) de R$ 100,00\n";
     $n %= 100;
