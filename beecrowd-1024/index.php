@@ -17,7 +17,7 @@ while($quant--){
   $entry = readline();
   $completa = "";
 
-  for($i=0; $i<=strlen($entry); $i++){
+  for($i=0; $i<strlen($entry); $i++){
     $char = $entry[$i];
     $teste1 = strtoupper($char);
 
